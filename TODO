@@ -1,0 +1,25 @@
+Prioritized TODO
+
+1. Add an implementation for Android > ICS using HttpUrlConnection.
+2. Switch entirely to Maven and load up dependencies through Maven
+3. Add More Documentation
+4. Create GitHub Pages
+5. Use MockHttpServer or Robolectric for Android Testing: 
+    http://www.nofluffjuststuff.com/blog/vladimir_vivien/2012/04/mockhttpserver_for_testing_android_http_client
+    http://www.slideshare.net/marc_chung/testing-android
+    http://kiefermat.com/2012/03/19/mocking-http-responses-in-android-using-robolectric/
+6. Finish Tests Project
+7. Add HttpDigest Authentication
+8. Add Cookie Support
+9. Add Caching Support
+10. Handle Stream Encoding
+11. Add Http OAuth Authentication
+12. Add Regular Json Parsing with no dependencies
+13. Add Performance Tests
+14. Ensure gzip compression is working on all implementations.
+15. Remind users to set their internet permissions
+16. Consider graceful failing for handling no internet connection 
+17. Handle Network Sign-On (e.g. AT&T Wifi).
+18. Handle Connection Errors - Retry Requests in Entity Service and Async Threads
+19. Add Paging Support
+
