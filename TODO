@@ -2,7 +2,7 @@ Prioritized TODO
 
 1. Add an implementation for Android > ICS using HttpUrlConnection.
 2. Switch entirely to Maven and load up dependencies through Maven
-3. Add More Documentation
+3. Add More Documentation - Fix Formatting Due to Eclipse Save Actions (Comments may be split over many lines for no reason).
 4. Create GitHub Pages
 5. Use MockHttpServer or Robolectric for Android Testing: 
     http://www.nofluffjuststuff.com/blog/vladimir_vivien/2012/04/mockhttpserver_for_testing_android_http_client

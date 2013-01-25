@@ -43,18 +43,30 @@ Things shouldn't be this easy. Not in Java. ;)
 * Best HttpClient selection depending on Android Target
     So long as there is fragmentation on Android, android-requests will ensure your calls work 
     consistently and without error on all platforms. You will no longer have to deal with 
-    the different bugs in the the different HttpClients of each platform.
+    the different bugs in the the different HttpClients or UrlConnections of each platform.
 * High Performance, Async Requests (Can be executed in Blocking and NonBlocking Modes)
+* Fire and Forget Capability
+    Set up Android Requests to keep your data up-to-date. It works with your
+    server to ensure the latest data is available on your device. Fire a
+    request and forget about getting updates. * See Notes.
 * High Performance Json/Xml Parsing. (Yaml Coming Soon)
+* High Performance Response Caching (Coming Soon)
 * Automatic Gzip Decompression
-* Sensible HttpClient Defaults
+* Sensible HttpClient/UrlConnection Defaults
 * Connection-Pooling
 * Graceful handling of SSL Caches.
 * Basic/Digest Authentication (Digest Coming Soon)
 * International Domains and Urls
 * SSL Caching
 * Sessions with Cookies (Coming Soon)
+* Proxies Support (Coming Soon)
+* Transparent IPv6 Support (Coming Soon)
+* Network Sign On Handling (Coming Soon)
 * And more coming soon. (See TODO for how to contribute)
+
+Notes:
+For this to work effectively, your server must properly respond to
+If-Modified-Since headers or else you risk exhausting the user's bandwidth.
 
 
 ## Contribute
